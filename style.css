@@ -9,7 +9,9 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .contener{
     border-color: #ffff;
@@ -77,3 +79,47 @@ height: 127px;
  .blog-info{
     margin-left: 15px;
  }
+article:hover{
+    box-shadow: 0 5px 15px black;
+    transition: .3s;
+    padding: 5px 5px ;
+    border-radius: 6px;
+    
+}
+/* -------------------------------
+           Lates Course 
+------------------------------*/
+.lates-course{
+
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.course-banner img{
+    width: 266px;
+height: 141px;
+}
+.course-info h3 {
+    font-size: 20px;
+    
+}
+.fild{
+    color: gold;
+}
+
+
+.info-ra{
+    display: flex;
+    align-items: center;
+   
+    
+}
+.time{
+    color: #FF4A60;
+    margin-left: 10px;
+    background-color: #ffdbdf;
+    padding: 2px;
+    border-radius: 10px;
+}
