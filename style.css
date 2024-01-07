@@ -41,3 +41,39 @@ main{
     font-size:18px;
     color: black;
 }
+hr{
+    border: 1px solid rgb(182, 182, 182);
+    margin-bottom: 30px;
+    
+}
+/*--------------------------------
+      Top  Blog Styles 
+ ------------------------------*/
+ .top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-row-gap:26px ;
+ }
+ .blog .thumbnel img{
+    width: 224px;
+height: 127px;
+ }
+ .blog{ 
+    display: flex;
+ }
+ .blog-title{
+    font-size: 20px ;
+    font-weight: 700;
+ }
+ .blog-des{
+    font-size: 16px;
+    color: #9F9F9F;
+ }
+ .blog-des a {
+    text-decoration: none;
+    color: #562EFF;
+
+ }
+ .blog-info{
+    margin-left: 15px;
+ }
